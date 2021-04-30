@@ -10,6 +10,14 @@ body {
   overflow-x : scroll;
 }
 
+i {
+  background-color: black;
+  border-radius: 50%;
+  border: 1x solid black;
+  padding: 10px;
+  color: white;
+}
+
 .item_carousel{
   position: relative;
   display: flex;
