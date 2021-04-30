@@ -7,6 +7,9 @@
 
 /* Barre d'info top */
 
+main {
+    margin-left: 200px;
+}
 .flex {
     display:flex;
 }
