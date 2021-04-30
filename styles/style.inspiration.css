@@ -1,4 +1,12 @@
-
+body {
+ display:block !important
+}
+.carousel_container{
+  display: flex;
+}
+.item_carousel{
+  flex-wrap: nowrap;
+}
 div img{
   height: 150px;
   width: 150px;
