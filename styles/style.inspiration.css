@@ -1,0 +1,47 @@
+
+div img{
+  height: 150px;
+  width: 150px;
+}
+
+p{
+  color: #484848;
+}
+section{
+  display:block;
+}
+
+b,
+strong {
+ font-weight:700
+}
+
+img {
+ border-style:none
+}
+
+button{
+ font-family:inherit;
+ font-size:100%;
+ line-height:1.5;
+ margin:0;
+ overflow: visible;
+  text-transform: none;
+}
+
+a,
+button {
+ position:relative
+}
+a {
+ color:#484848;
+ background-color:transparent
+}
+a:hover {
+ color:#111;
+ text-decoration:underline
+}
+a:focus,
+a:active {
+ color:#111
+}
