@@ -1,0 +1,275 @@
+main {
+    margin-left:120px;
+}
+.infos-magasin {
+    background-color: #f5f5f5;
+    padding:50px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right:30px;
+}
+.infos-magasin h2, .infos-magasin p {
+    padding:10px;
+    width:60%;
+}
+.infos-magasin p:nth-of-type(1) {
+    font-weight: 700;
+}
+.infos-magasin button {
+    padding:15px;
+    margin-left:10px;
+    margin-top:30px;
+    background-color:black;
+    color:white;
+    font-weight: 700;
+    font-size:12px;
+    border-radius: 10% / 50%;
+}
+
+.services {
+    margin: 20px 0px;
+}
+.services h2, .controle h2 {
+    padding-bottom:20px;
+}
+.services-text {
+    width:70%;
+}
+.services p {
+    font-size:18px;
+    width:70%;
+    margin-right: 20px;
+    margin-bottom:70px;
+}
+.services button {
+    width:20%;
+    height:40%;
+    padding:10px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+}
+.services-img img:nth-of-type(1) {
+    margin-right: 20px;
+}
+.controle {
+    margin-bottom:60px;
+}
+.controle-text {
+    margin-bottom:50px;
+    justify-content: space-between;
+}
+.controle-text p {
+    width: 60%;
+    font-size:18px;
+    
+} 
+.controle-text button {
+    height:30%;
+    padding:12px;
+    align-self: flex-end;
+    background-color:white;
+    font-weight: 700;
+    border-radius: 10% / 50%;
+    border: 1px solid lightgrey;
+    margin-right:200px;
+}
+.controle-img {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.controle-img img {
+    height:100%;
+    width:500px;
+    margin:20px;
+}
+.controle-img-2 img {
+    width:500px;
+    height: 30vh;
+    margin:20px;
+}
+.controle-img-2 {
+    flex-direction: column;
+    align-items:center;
+}
+.controle-img-3 {
+    flex-direction:column;
+}
+.controle-img-3 img {
+    width:400px;
+    height: 35vh;
+    margin:20px;
+}
+.pub {
+    background-color:#0077c8;
+    color:white;
+    padding:50px;
+    margin-right:30px;
+    margin-bottom:40px;
+}
+.pub h2, .pub p {
+    margin-bottom:30px;
+    width:60%;
+}
+.pub button {
+    width:15%;
+    height:40%;
+    padding:10px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+}
+.promo-ikea {
+    overflow-x: scroll;
+    width:90%;
+    margin-bottom:50px;
+}
+.promo-ikea h2{
+    margin-bottom:30px;
+}
+.promo-ikea img {
+    width:500px;
+}
+.promo-ikea-div {
+    justify-content: space-between;
+}
+.promo-ikea-div div {
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.description1 p, .description2 p,
+.description3 p, .description4 p,
+.description5 p {
+    font-size:30px;
+    color:white;
+    font-weight: 700;
+    padding:20px;
+}
+.description1, .description3 {
+    background-color: red;
+    height:25vh;
+    width:100%;
+    outline:none;
+
+}
+.description2, .description5 {
+    background-color: green;
+    height:25vh;
+    width:100%;
+}
+.description4 {
+    background-color:orangered;
+    height:25vh;
+    width:100%;
+}
+
+.description1 button,
+.description2 button,
+.description3 button,
+.description4 button,
+.description5 button {
+    font-size:20px;
+    color:black;
+    background-color:white;
+    border:0;
+    border-radius: 75%;
+    vertical-align: text-bottom;
+    padding:20px;
+    margin-left:15px;
+
+}
+.description1 button, .description4 button {
+    margin-top:100px;
+}
+.description2 button, .description3 button, .description5 button {
+    margin-top:60px;
+}
+.conseil {
+    margin-bottom:40px;
+}
+.conseil img {
+    width:250px;
+    height:333.33px;
+}
+.conseil h2 {
+    margin-bottom:20px;
+}
+.conseil-div {
+    justify-content: space-between;
+    overflow-x: scroll;
+    width:90%;
+}
+
+.conseil-div figure {
+    margin-right:10px;
+}
+.conseil button {
+    width:100%;
+    margin-top:15px;
+    height:40%;
+    padding:10px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+.ikea-family {
+    background-color: #0077c8;
+    color:white;
+    padding:25px;
+    
+}
+.ikea-family-section {
+    width:90%;
+    padding-bottom:20px;
+}
+.ikea-family h2 {
+    margin-bottom:20px;
+}
+.ikea-family p{
+    font-size:20px;
+    margin-bottom:20px;
+}
+.ikea-family button {
+    width:100%;
+    margin-top:15px;
+    height:10%;
+    padding:10px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+    margin-bottom:15px;
+}
+main hr {
+    margin:40px;
+    width:80%;
+}
+.accessoire h1 {
+    font-size:35px;
+    margin-bottom:40px;
+}
+.accessoire h2 {
+    margin-bottom:20px;
+}
+.accessoire button {
+    width:15%;
+    margin-top:15px;
+    height:10%;
+    padding:10px;
+    background-color:white;
+    border:1px solid lightgrey;
+    border-radius: 10% / 50%;
+    font-weight: 700;
+    margin-bottom:15px;
+    margin-right:15px;
+}
+
+.images-bas img {
+    width:300px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
