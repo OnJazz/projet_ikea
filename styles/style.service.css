@@ -1,0 +1,184 @@
+@import url(//db.onlinewebfonts.com/c/2b9a54453c1a3cbc651c0788ade94e4a?family=Noto+IKEA+Latin);
+
+body {
+    font-family: "Noto IKEA","Noto Sans","Roboto","Open Sans",-apple-system,sans-serif !important;
+}
+
+html {
+    font: 100% sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding: 25px 0 25px 0;
+}
+
+.hnf-link {
+    color: #484848;
+}
+
+#hnf-page-message {
+    margin-bottom: 2rem;
+}
+
+.hnf-inline-message--informative {
+    border-left-color: #0058a3;
+}
+
+.hnf-inline-message {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    border-left: 0.25rem solid transparent;
+    border-right: 0.25rem solid #fff;
+    padding: 1rem 1.75rem 1rem .75rem;
+    visibility: visible;
+    opacity: 1;
+    overflow: hidden;
+    min-height: 1.5rem;
+    text-align: left;
+    font-size: .875rem;
+    box-sizing: border-box;
+}
+
+.news {
+    box-sizing: inherit;
+}
+
+.news h1 {
+    width: calc(7 / 12 * (100% - (11 * 1.25rem)) + (6 * 1.25rem));
+    font-size: 2.25rem;
+    line-height: 1.33333;
+    letter-spacing: -.03938rem;
+}
+
+.news p {
+    width: calc(7 / 12 * (100% - (11 * 1.25rem)) + (6 * 1.25rem));
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #484848;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.family-picture {
+    padding: 30px 0 30px 0;
+}
+
+.service-available section article {
+    background-color: #F5F5F5;
+    padding: 32px;
+    margin: 0 1px 1px 0;
+    width: 25%;
+}
+
+.service-available section article h3 {
+    margin: 0 0 4px;
+}
+
+section {
+    display: flex;
+    text-align: center;
+}
+.article p {
+    margin-bottom: .25rem;
+}
+
+.remote-project-block-4 section article {
+    background-color: #F5F5F5;
+    padding: 32px;
+    margin: 0 1px 1px 0;
+    width: 25%;
+}
+
+.remote-project-block-3 section article {
+    background-color: #F5F5F5;
+    padding: 32px;
+    margin: 0 1px 1px 0;
+    width: 33.33%;
+}  
+
+.tips-inspiration {
+    margin-bottom: 20px;
+}
+
+.tips-inspiration p {
+    text-align: initial;
+}
+
+.pic-tips article img {
+    width: 75%;
+}
+
+.pic-tips section button {
+    background-color: white;
+    border-radius: 40%;
+    width: 150px;
+    padding: 8px;
+    font: bold;
+    border-color: #F5F5F5;
+}
+
+.pub__btn--small .pub__btn__inner {
+    height: 2.5rem;
+    padding: 0 1.5rem;
+}
+.pub__btn--icon-secondary .pub__btn__inner, .pub__btn--secondary .pub__btn__inner {
+    border: 1px solid #dfdfdf;
+}
+.pub__btn__inner {
+    border-radius: 64px;
+    transition-property: opacity,transform,padding;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.4, 1);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0 2rem;
+    width: 100%;
+}
+.pub__designSystemBase *, .pub__designSystemBase *::before, .pub__designSystemBase *::after {
+    box-sizing: inherit;
+    outline: none;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    outline: none;
+}
+.pub__btn--small {
+    font-size: .75rem;
+    line-height: 1.33333;
+}
+
+.pub__btn--icon-secondary, .pub__btn--secondary {
+    color: #111;
+    text-decoration: none;
+}
+.pub__btn {
+    position: relative;
+    font-size: .875rem;
+    background: none;
+    border: 0;
+    padding: 12px;
+    line-height: 1.71429;
+    font-weight: bold;
+    text-align: center;
+    display: inline-flex;
+    border-radius: 64px;
+    cursor: pointer;
+    outline: 0;
+}
+
+.moretips .pub__btn__inner {
+    background-color: black;
+    color: white;
+}
+
+.questions {
+    margin-top: 25px;
+}
