@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+}
+
+footer {
+    padding:50px;
+    margin-top:200px;
+    background-color:#f5f5f5;
+
+}
+.footer {
+    justify-content: space-around;
+}
+.rejoindre-ikea {
+    width:20%;
+    flex-direction:column;
+}
+footer h2, footer p {
+    padding-bottom:20px;
+}
+footer button {
+    padding:15px;
+    width:30%;
+    border:0;
+    background-color:black;
+    color:white;
+    border-radius: 20% / 50%;
+    font-weight: 700;
+}
+footer .vignette {
+    padding-top:100px;
+    justify-content: space-between;
+}
+footer .vignette i {
+    padding:5px;
+    border-radius:50%;
+    border:1px solid lightgrey;
+    color:grey;
+    margin-bottom:20px;
+}
+.liste ul li {
+    list-style: none;
+    padding:7px;
+}
+footer ul li a {
+    text-decoration:none;
+    color:black;
+}
+footer ul li a:hover {
+    text-decoration: underline;
+}
+footer hr {
+    width:90%;
+    margin:40px auto;
+    color:lightgrey;
+}
+.nav-bas {
+    margin:0 auto;
+    width:90%;
+    margin-top:20px;
+    justify-content:space-around;
+}
+.nav-bas div {
+    width:40%;
+}
+.nav-bas a {
+    font-size:12px;
+    text-decoration:none;
+    color:black;
+}
