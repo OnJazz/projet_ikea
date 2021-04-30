@@ -1,0 +1,24 @@
+@import url(//db.onlinewebfonts.com/c/2b9a54453c1a3cbc651c0788ade94e4a?family=Noto+IKEA+Latin);
+
+body {
+    font-family: "Noto IKEA","Noto Sans","Roboto","Open Sans",-apple-system,sans-serif !important;
+}
+
+html {
+    font: 100% sans-serif;
+    box-sizing: border-box;
+}
+
+.news h1 {
+    width: calc(7 / 12 * (100% - (11 * 1.25rem)) + (6 * 1.25rem));
+    font-size: 2.25rem;
+    line-height: 1.33333;
+    letter-spacing: -.03938rem;
+}
+
+p {
+    color: #484848;
+    font-style: normal;
+    font-weight: normal;
+    width: calc(7 / 12 * (100% - (11 * 1.25rem)) + (6 * 1.25rem));
+}
